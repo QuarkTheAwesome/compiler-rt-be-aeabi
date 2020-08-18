@@ -349,9 +349,9 @@ set(thumb1_SOURCES
 )
 
 set(arm_EABI_SOURCES
-  arm/aeabi_cdcmp.S
+#  arm/aeabi_cdcmp.S
   arm/aeabi_cdcmpeq_check_nan.c
-  arm/aeabi_cfcmp.S
+#  arm/aeabi_cfcmp.S
   arm/aeabi_cfcmpeq_check_nan.c
   arm/aeabi_dcmp.S
   arm/aeabi_div0.c
